@@ -1,6 +1,5 @@
 'use strict';
-// Task Model
-// 3 attributes, priority, description, list_id
+
 function Task(description, priority, list){
 	this.description = description;
 	this.priority = priority;

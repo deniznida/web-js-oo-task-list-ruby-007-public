@@ -19,6 +19,6 @@ ListsController.prototype.init = function(){
    $(".destroy-list").on("click", function() {
      this.closest("div").remove();
     
-   })
+   });
  });
-}
+};
